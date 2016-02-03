@@ -1,0 +1,382 @@
+html {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: #fff;
+  margin: 0;
+}
+
+p {
+  color: #5d6660;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Lato", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+header {
+  height: 80px;
+  background-color: #fff;
+}
+
+
+#header-container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#header-container img {
+  width: 143px;
+  height: 18px;
+}
+
+.main-container {
+  overflow: auto;
+  padding-bottom: 100px;
+}
+
+.col-3 {
+  /*border: 1px solid orange;*/
+  width: 33%;
+  float: left;
+}
+
+.logo { padding-top: 30px;}
+
+.menu {
+  margin-top: 32px;
+}
+
+.menu li {
+  list-style: none;
+  display: inline;
+  font-size: .85em;
+  color: #8e8e8e;
+  padding-right: 30px;
+}
+
+.getStartedBTN {
+  background-color: #6dc77a;
+  border-radius: 28px;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 26px;
+  margin-top: 20px;
+  font-size: 17px;
+  float: right;
+}
+
+/* New Section*/
+
+#top-section-main {
+  background: url("../img/friends.jpg") center fixed;
+  background-size: cover;
+  height: 740px;
+  border: none;
+}
+
+#top-section-content {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#top-section-content h1,
+#top-section-content p {
+  text-align: center;
+  color: #fff;
+
+}
+#top-section-content h1 {
+  font-size: 4em;
+  margin: 0 0 15px;
+  padding-top: 120px;
+  font-weight: 300;
+}
+
+#top-section-content p {
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+.play-btn {
+  width: 120px;
+  margin: 0 auto;
+  display: block;
+  padding: 50px 0 100px;
+}
+
+.main-form h6 {
+  font-size: .9em;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+
+.main-form input, button {
+  width: 30%;
+  border: none;
+  font-size: 15px;
+  font-weight: 200;
+  padding-left: 15px;
+}
+
+.main-form input {
+  margin: 0;
+  height: 40px;
+}
+
+.main-form button {
+  height: 42px;
+  background-color: #6dc77a;
+  vertical-align: bottom;
+  color: #fff;
+}
+
+
+/* Feature */
+
+#feature-section {
+  padding-top: 100px;
+  /*background-color: rebeccapurple;*/
+}
+
+.feature-section-title {
+  width: 70%;
+  text-align: center;
+  font-weight: 200;
+  margin: 0 auto;
+  line-height: 1.5em;
+}
+
+.feature-section-title span {
+  background-color: #6dc77a;
+  color: #fff;
+  padding: 2px;
+}
+
+.feature-content {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+  overflow: auto;
+}
+
+.feature-content .col-3 {
+  padding: 10px;
+  width: 30%;
+}
+
+.feature-content .col-3 img {
+  width: 100%;
+}
+
+.feature-content .col-3 p {
+  font-size: .9em;
+  letter-spacing: 1px;
+}
+
+/* Showcase Section*/
+
+.col-2 {
+  float: left;
+  width: 48%;
+}
+#showcase1-container {
+  padding-top: 60px;
+  background-color: #f6f8fa;
+  width: 100%;
+  clear: both;
+
+}
+
+#showcase2-container {
+  padding-top: 60px;
+  width: 100%;
+  clear: both;
+}
+
+.showcase {
+  width: 80%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.showcase1pic,
+.showcase2pic {
+  width: 100%;
+}
+
+.feature-text {
+  padding: 300px 0 0 50px;
+}
+
+.section-title {
+  width: 70%;
+  font-weight: 200;
+  line-height: 1.5em;
+  margin: 0 auto;
+}
+
+.section-left {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 10px 10px;
+}
+
+/*Call to Action */
+
+#call-to-action {
+  background: url("../img/darkdesk.png") fixed center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 50px 0 50px;
+}
+
+.col-1 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.action-title {
+  font-size: 4em;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+
+.col-1 p {
+  color: #fff;
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: 300;
+  margin: 0 0 90px;
+}
+
+.signupBTN {
+  background-color: #6dc77a;
+  text-decoration: none;
+  color: #fff;
+  font-size: .8em;
+  padding: 20px 90px;
+  font-weight: 200;
+  border-radius: 5px;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  -moz-transition: background-color 0.25s ease-in-out;
+  -ms-transition: background-color 0.25s ease-in-out;
+  -o-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.signupBTN:hover {
+  background-color: #5cbf2a;
+}
+
+/*Signup Form*/
+
+.signup {
+  padding-top: 100px;
+}
+.top-margin {
+  margin: 100px 0 0 100px;
+
+}
+.signupform {
+  background-color: #f6f8fa;
+  margin-right: 200px;
+  padding: 0 50px 10px;
+}
+
+.signupform h6 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 15px;
+  font-size: .9em;
+
+}
+.signupform input {
+  display: block;
+  width: 97%;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 100;
+  border: none;
+  margin-bottom: 10px;
+  padding-left: 10px;
+
+}
+
+.signupform input[type=submit] {
+  color: #fff;
+  background-color: #6dc77a;
+  width: 100%;
+}
+.signupform p {
+  font-size: 10px; line-height: 1;
+}
+
+/* Footer */
+
+footer {
+  clear: both;
+  height: 500px;
+  background: #000 url(../img/footerbg.png) fixed center;
+  background-size: cover;
+}
+
+.social-footer {
+  width: 33%;
+  display: inline-block;
+  height: 40%;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  -moz-transition: background-color 0.25s ease-in-out;
+  -ms-transition: background-color 0.25s ease-in-out;
+  -o-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.social-footer:hover {
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.center {
+  width: 50px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.center i {
+  color: #fff;
+}
+
+.footer-logo {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.footer-logo img {
+  display: block;
+  width: 35%;
+  margin: 50px auto 50px;
+}
+
+.copyright {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.copyright p {
+  color: #fff;
+  font-weight: 200;
+  font-size: .8em;
+}
+
+.copyright p span {
+  color: #f00;
+}
